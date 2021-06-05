@@ -1,0 +1,34 @@
+.header{
+    background-color:rgb(124, 252, 0);
+    display: flex;
+    justify-content: space-between;
+
+}
+.img1{
+    background-color: darkcyan;
+   border: solid;
+}
+a:link{
+    color:white
+}
+a:visited{
+    color: blueviolet;
+}
+
+.img2{
+    
+    background-color: chartreuse;
+   border: solid; 
+   align-self: flex-end;
+ }
+.Items{
+   display: flex;
+    align-self: center;
+    
+}
+.img1:hover{
+transform: scale(1.2);
+}
+.img2:hover{
+    transform: scale(1.2);
+    }
